@@ -113,6 +113,6 @@ tidydata$activity <- factor(tidydata$activity, levels = activity$index, labels =
 tidydataBySubAct <- group_by(tidydata,subject,activity)
 finaltidy <- summarize_each(tidydataBySubAct, funs(mean))
 finaltidy <- arrange(finaltidy, subject, activity)
-write.csv(finaltidy, "tidy.csv")
+write.table(finaltidy, "tidy.txt", row.names = FALSE)
 
 
