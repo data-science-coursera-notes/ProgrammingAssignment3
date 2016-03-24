@@ -4,10 +4,10 @@ by Chan Chee-Foong on 24 Mar 2016<br>
 
 ## Assignment Summary
 The goal is to prepare tidy data that can be used for later analysis.  We are required to submit: <br>
-1) a tidy data set (the average of each variable for each activity and each subject) from the raw data set downloaded<br>
-2) a link to a Github repository with the script for performing the analysis<br>
-3) a code book called CodeBook.md that describes the variables, the data, and any transformations or work that was performed to clean up the data.<br>
-4) a README.md in the repo with the scripts to explains how all of the scripts work and how they are connected.
+1. a tidy data set (the average of each variable for each activity and each subject) from the raw data set downloaded<br>
+2. a link to a Github repository with the script for performing the analysis<br>
+3. a code book called CodeBook.md that describes the variables, the data, and any transformations or work that was performed to clean up the data.<br>
+4. a README.md in the repo with the scripts to explains how all of the scripts work and how they are connected.
 
 
 ## Data
