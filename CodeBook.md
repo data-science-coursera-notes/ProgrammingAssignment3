@@ -65,3 +65,83 @@ To prepare the final tidy data set with <U>the average of each variable for each
 2. Summarize the <B>tidydataBySubAct</B> with a mean function and store in <B>finaltidy</B><br>
 3. Arrange <B>finaltidy</B> by subject and activity<br>
 4. Extract <B>finaltidy</B> into tidy.csv<br><br>
+
+## tidydata Variables
+
+All measure variables (except 1 and 2) are given more descriptive names formatted based on the following properties in order (left to right):<br>
+* 't' or 'f' - (t for Time, f for Frequency)<br>
+* 'Gravity' or 'Body'<br>
+* 'Acc' or 'Gyro' - (Acc for Accelerometer, Gyro for Gyroscope)<br>
+* 'Jerk' - (ignore if not required)<br>
+* 'Mean' or 'Std' - (Mean or Standard Deviation)<br>
+* 'X', 'Y', 'Z' or 'M' - (X, Y and Z for 3 dimensional signals.  M for Magnitude calculated based on X,Y,Z using the Euclidean form) <br>
+
+1. subject - id of volunteer performing the test.  Range from 1 to 30.<br>
+2. activity - activity the volunteer is performing during the test. Namely, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING<br>
+
+3. tBodyAccMeanX<br>
+4. tBodyAccMeanY<br>
+5. tBodyAccMeanZ<br>
+6. tGravityAccMeanX<br>
+7. tGravityAccMeanY<br>
+8. tGravityAccMeanZ<br>
+9. tBodyAccJerkMeanX<br>
+10. tBodyAccJerkMeanY<br>
+11. tBodyAccJerkMeanZ<br>
+12. tBodyGyroMeanX<br>
+13. tBodyGyroMeanY<br>
+14. tBodyGyroMeanZ<br>
+15. tBodyGyroJerkMeanX<br>
+16. tBodyGyroJerkMeanY<br>
+17. tBodyGyroJerkMeanZ<br>
+18. tBodyAccMeanM<br>
+19. tGravityAccMeanM<br>
+20. tBodyAccJerkMeanM<br>
+21. tBodyGyroMeanM<br>
+22. tBodyGyroJerkMeanM<br>
+23. fBodyAccMeanX<br>
+24. fBodyAccMeanY<br>
+25. fBodyAccMeanZ<br>
+26. fBodyAccJerkMeanX<br>
+27. fBodyAccJerkMeanY<br>
+28. fBodyAccJerkMeanZ<br>
+29. fBodyGyroMeanX<br>
+30. fBodyGyroMeanY<br>
+31. fBodyGyroMeanZ<br>
+32. fBodyAccMeanM<br>
+33. fBodyAccJerkMeanM<br>
+34. fBodyGyroMeanM<br>
+35. fBodyGyroJerkMeanM<br>
+36. tBodyAccStdX<br>
+37. tBodyAccStdY<br>
+38. tBodyAccStdZ<br>
+39. tGravityAccStdX<br>
+40. tGravityAccStdY<br>
+41. tGravityAccStdZ<br>
+42. tBodyAccJerkStdX<br>
+43. tBodyAccJerkStdY<br>
+44. tBodyAccJerkStdZ<br>
+45. tBodyGyroStdX<br>
+46. tBodyGyroStdY<br>
+47. tBodyGyroStdZ<br>
+48. tBodyGyroJerkStdX<br>
+49. tBodyGyroJerkStdY<br>
+50. tBodyGyroJerkStdZ<br>
+51. tBodyAccStdM<br>
+52. tGravityAccStdM<br>
+53. tBodyAccJerkStdM<br>
+54. tBodyGyroStdM<br>
+55. tBodyGyroJerkStdM<br>
+56. fBodyAccStdX<br>
+57. fBodyAccStdY<br>
+58. fBodyAccStdZ<br>
+59. fBodyAccJerkStdX<br>
+60. fBodyAccJerkStdY<br>
+61. fBodyAccJerkStdZ<br>
+62. fBodyGyroStdX<br>
+63. fBodyGyroStdY<br>
+64. fBodyGyroStdZ<br>
+65. fBodyAccStdM<br>
+66. fBodyAccJerkStdM<br>
+67. fBodyGyroStdM<br>
+68. fBodyGyroJerkStdM<br>
