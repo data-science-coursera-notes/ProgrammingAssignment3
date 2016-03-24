@@ -60,11 +60,6 @@ To prepare tidy data, the following steps are done:<br><br>
 13. Set subject and activity in <B>tidydata</B> as factors.  Activity will be given factors labels.<br>
 14. <B>tidydata</B> completed for further analysis.<br><br>
 
-To prepare the final tidy data set with <U>the average of each variable for each activity and each subject</U>,<br><br>
-1. Perform a group_by function on <B>tidydata</B> and store in <B>tidydataBySubAct</B><br>
-2. Summarize the <B>tidydataBySubAct</B> with a mean function and store in <B>finaltidy</B><br>
-3. Arrange <B>finaltidy</B> by subject and activity<br>
-4. Extract <B>finaltidy</B> into tidy.txt<br><br>
 
 ## tidydata Variables
 
@@ -149,3 +144,11 @@ All other variables are given more descriptive names formatted based on the foll
 66. fBodyAccJerkStdM<br>
 67. fBodyGyroStdM<br>
 68. fBodyGyroJerkStdM<br>
+
+
+## Performing analysis on tidydata and extracting the result
+To prepare the final tidy data set with <U>the average of each variable for each activity and each subject</U>,<br><br>
+1. Perform a group_by function on <B>tidydata</B> and store in <B>tidydataBySubAct</B><br>
+2. Summarize the <B>tidydataBySubAct</B> with a mean function and store in <B>finaltidy</B><br>
+3. Arrange <B>finaltidy</B> by subject and activity<br>
+4. Extract <B>finaltidy</B> into tidy.txt<br><br>
