@@ -68,8 +68,9 @@ To prepare the final tidy data set with <U>the average of each variable for each
 
 ## tidydata Variables
 
-The first 2 column are 'subject' and 'activity'.  'subject' is the id of volunteer performing the test.  Range from 1 to 30.
-'activity' is activity that the volunteer is performing during the test.  Namely, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING<br>
+The first 2 columns are 'subject' and 'activity'.<br>
+<B>'subject'</B> is the id of volunteer performing the test.  Range from 1 to 30.<br>
+<B>'activity'</B> is activity that the volunteer is performing during the test.  Namely, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING<br>
 
 All other variables are given more descriptive names formatted based on the following properties in order (left to right):<br>
 * 't' or 'f' - (t for Time, f for Frequency)<br>
@@ -79,6 +80,7 @@ All other variables are given more descriptive names formatted based on the foll
 * 'Mean' or 'Std' - (Mean or Standard Deviation)<br>
 * 'X', 'Y', 'Z' or 'M' - (X, Y and Z for 3 dimensional signals.  M for Magnitude calculated based on X,Y,Z using the Euclidean form) <br>
 
+### List
 1. subject<br>
 2. activity<br>
 3. tBodyAccMeanX<br>
