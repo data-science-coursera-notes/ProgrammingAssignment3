@@ -14,10 +14,10 @@ The goal is to prepare tidy data that can be used for later analysis.  We are re
 For data, please refer to the CodeBook.md.  The document explains where the raw data was downloaded, observations made on the raw data and also how the raw data was prepared into a tidy data set for further analysis.
 
 ## R Programming Script
-This assignment only contains one R script called <B>run_analysis.R</B>.  Comments are included in the script to explain the process and flow of cleaning up and preparing the tidy data set.  Included in the script are also the steps to analyse the tidy data set and return the average of each variable for each activity and each subject into a output file (tidy.csv) as required by the assignment.
+This assignment only contains one R script called <B>run_analysis.R</B>.  Comments are included in the script to explain the process and flow of cleaning up and preparing the tidy data set.  Included in the script are also the steps to analyse the tidy data set and return the average of each variable for each activity and each subject into a output file (tidy.txt) as required by the assignment.
 
 ## Output
-Refer to the comma delimited file name <B>tidy.csv</B> in this repository.
+Refer to the text file name <B>tidy.txt</B> in this repository.
 
 ### Special Notes
 As part of the pre and post data cleaning and analysis process, sanity checks are done on the R console to ensure that the raw data are correctly understood and that the final tidy data make sense.  Some sanity checks done are:<br><br>
