@@ -36,6 +36,7 @@ The downloaded files can be categorised as follows:
 * <B>test/Inertial Signals/body_gyro_x_test.txt</B>
 
 
+
 ## The Processed Data (using R Programming)
 On studying the raw data set, a few observations are noted:<br><br>
 1) Both the training and test variable data sets does not come with heading.  Each come with 561 columns corresponding to 561 variables for each test record in the training and test data set.<br>
