@@ -37,13 +37,13 @@ The downloaded files can be categorised as follows:
 
 
 ## The Processed Data
-On studying the raw data set, a few observations are noted:<br>
+On studying the raw data set, a few observations are noted:<br><br>
 1) Both the training and test variable data sets does not come with heading.  Each come with 561 columns corresponding to 561 variables for each test record in the training and test data set.<br>
 2) The feature.txt stores the raw column names of the 561 variables.  For this assignment, we are only interested in the mean() and std() variables.  The required subset of variables will be filtered out from the 561 variables.<br>
 3) The 30 volunteers also called 'subjects' are indexed and labelled 1 to 30<br>
-4) The 6 activities are indexed 1 to 6 and given labels correspondingly as WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING<br>
+4) The 6 activities are indexed 1 to 6 and given labels correspondingly as WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING<br><br>
 
-To prepare tidy data, the following steps are done:<br>
+To prepare tidy data, the following steps are done:<br><br>
 1) Load in the features.txt into <B>feature</B>.<br>
 2) Obtain the required variables mean() and std() from <B>feature</B> and store in <B>reqFeature</B>.  There are a total of 66 required variables.<br>
 3) Clean up and format the variable names to be more descriptive to be used for column name in the training and test data set.  Read run_analysis.R lines 27 to 35 for column name format definition.<br>
@@ -57,10 +57,10 @@ To prepare tidy data, the following steps are done:<br>
 11) Column bind the test data set with subject ids and activity ids into <B>test</B>.<br>
 12) Row bind the training and test data set into <B>tidydata</B>.<br>
 13) Set subject and activity in <B>tidydata</B> as factors.  Activity will be given factors labels.<br>
-14) <B>tidydata</B> completed for further analysis.<br>
+14) <B>tidydata</B> completed for further analysis.<br><br>
 
-To prepare the final tidy data set with <u>the average of each variable for each activity and each subject</u>,<br>
+To prepare the final tidy data set with <ul>the average of each variable for each activity and each subject</ul>,<br><br>
 1) Perform a group_by function on <B>tidydata</B> and store in <B>tidydataBySubAct</B><br>
 2) Summarize the <B>tidydataBySubAct</B> with a mean function and store in <B>finaltidy</B><br>
 3) Arrange <B>finaltidy</B> by subject and activity<br>
-4) Extract <B>finaltidy</B> into tidy.csv<br>
+4) Extract <B>finaltidy</B> into tidy.csv<br><br>
