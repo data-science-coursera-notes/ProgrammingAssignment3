@@ -3,7 +3,7 @@ Data Science Specialisation by John Hopkins University<br>
 by Chan Chee-Foong on 24 Mar 2016<br>
 
 ## Assignment Summary
-The goal is to prepare tidy data that can be used for later analysis.  We are required tosubmit: <br>
+The goal is to prepare tidy data that can be used for later analysis.  We are required to submit: <br>
 1) a tidy data set as described below<br>
 2) a link to a Github repository with the script for performing the analysis<br>
 3) a code book called CodeBook.md that describes the variables, the data, and any transformations or work that was performed to clean up the data.<br>
