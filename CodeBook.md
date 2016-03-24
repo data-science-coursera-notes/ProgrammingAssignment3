@@ -64,7 +64,7 @@ To prepare the final tidy data set with <U>the average of each variable for each
 1. Perform a group_by function on <B>tidydata</B> and store in <B>tidydataBySubAct</B><br>
 2. Summarize the <B>tidydataBySubAct</B> with a mean function and store in <B>finaltidy</B><br>
 3. Arrange <B>finaltidy</B> by subject and activity<br>
-4. Extract <B>finaltidy</B> into tidy.csv<br><br>
+4. Extract <B>finaltidy</B> into tidy.txt<br><br>
 
 ## tidydata Variables
 
